@@ -1,5 +1,6 @@
 package algorithms
 
+// FROM: https://www.hackerrank.com/challenges/drawing-book/problem
 func pageCount(n, p int32) int32 {
 	var distFromBack int32
 	distFromFront := p / 2
